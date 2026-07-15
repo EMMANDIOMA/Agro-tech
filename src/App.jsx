@@ -1,11 +1,12 @@
-import React from "react";
+// import React from "react";
 
+import Profile from "./profile component/profile";
 const App = () => {
   return (
     <div>
-      <h1 className="text-[red] text-2xl">hello</h1>
+      <Profile />
+      
     </div>
   );
 };
-
 export default App;
