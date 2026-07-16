@@ -5,7 +5,7 @@ import { Achievement } from "./achievement";
 
 export function Main() {
   return (
-    <div className="p-5 flex flex-col gap-5 ">
+    <div className="p-5 flex flex-col gap-5 w-full">
       {/* name/reviews */}
       <div className="bg-[#ffffff] shadow p-5 rounded-3xl items-center">
         <div className=" rounded-md flex items-center gap-4 pb-2">

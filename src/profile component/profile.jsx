@@ -8,7 +8,7 @@ export default function Profile() {
         <ArrowLeft />
         <h1 className="font-bold text-2xl">My Profile</h1>
       </div>
-      <div className="w-3/5 mx-auto min-h-screen">
+      <div className=" w-full md:w-3/5 mx-auto min-h-screen">
         <Main />
       </div>
     </div>
