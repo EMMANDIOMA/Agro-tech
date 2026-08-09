@@ -9,10 +9,12 @@ function App() {
   return (
     <>
       <Show when="signed-out">
-        <Routes>
-          <Route path="/" element={<SignIn />} />
-          <Route path="/sign-up" element={<SignUp />} />
-        </Routes>
+        <div className="flex flex-col items-center justify-center min-h-screen bg-gray-100">
+          <Routes>
+            <Route path="/" element={<SignIn />} />
+            <Route path="/sign-up" element={<SignUp />} />
+          </Routes>
+        </div>
       </Show>
 
       <Show when="signed-in">

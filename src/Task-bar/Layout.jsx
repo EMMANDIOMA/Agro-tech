@@ -6,7 +6,7 @@ function Layout() {
     <div className="flex">
       <Sidebar />
 
-      <div className="ml-20 lg:ml-64 w-full p-5">
+      <div className=" ml-0 lg:ml-64 w-full p-5">
         <Outlet />
       </div>
     </div>

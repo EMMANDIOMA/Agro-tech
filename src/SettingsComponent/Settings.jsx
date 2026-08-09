@@ -42,10 +42,10 @@ const Settings = () => {
             names={"Manage your data"}
             icon={<Lock color="#008000" strokeWidth={2.25} />}
           />
-          <button className="flex justify-center items-center text-white bg-amber-400 rounded-3xl p-3 my-2 hover:bg-amber-500">
+          {/* <button className="flex justify-center items-center text-white bg-amber-400 rounded-3xl p-3 my-2 hover:bg-amber-500">
             <LogOut color="#ffffff" strokeWidth={2.25} />
             Logout
-          </button>
+          </button> */}
           <footer className="flex flex-col gap-2 rounded-3xl p-3 bg-green-100 justify-center items-center mb-7 shadow">
             <p className="text-gray-400">FarmLink</p>
             <p className="font-bold">Version 1.0.0</p>
