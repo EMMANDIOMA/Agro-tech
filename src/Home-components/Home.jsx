@@ -1,9 +1,9 @@
-import'react';
-import Header from './Home-components/home/Header.jsx';
-import StatsGrid from './Home-components/home/StatsGrid.jsx';
-import QuickActions from './Home-components/home/QuickActions.jsx';
-import InfoCards from './Home-components/home/InfoCards.jsx';
-import RecentActivity from './Home-components/home/RecentActivity.jsx';
+import React from "react";
+import Header from "./home/Header";
+import StatsGrid from "./home/StatsGrid";
+import QuickActions from "./home/QuickActions";
+import InfoCards from "./home/InfoCards";
+import RecentActivity from "./home/RecentActivity";
 
 const Home = () => {
   return (
